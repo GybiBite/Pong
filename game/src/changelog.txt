@@ -1,0 +1,41 @@
+========== VERSION 1.3 ==========
+-> Added framework for extensions
+-> 1 Player mode is now an add-on
+-> 1 Player related buttons
+   disable if the 1 Player add-on
+   isn't loaded
+
+========== VERSION 1.2 ==========
+-> Major UI rewrite, buttons are
+   now clients of the Button
+   class
+-> Replaced some for loops with
+   switch blocks for cleaner code
+-> Changed some variables to
+   proper constants to comply
+   with proper Java standards
+-> The font is now loaded in a
+   try-catch block, in the event
+   the font isn't packed in the
+   jar file
+-> Paddle length setting is now
+   stored in an array, for better
+   looking menu code
+-> Introduced changelog.txt
+
+========== VERSION 1.1 ==========
+-> Cleaned up a little bit of
+   code
+-> Properly separated Pong.java
+   and Ball.java
+-> Now has proper compiled .jar
+   variant, rather than being
+   confined to the editor
+
+========== VERSION 1.0 ==========
+-> Officially considered Pong as
+   a project
+-> Wrote to do list of possible
+   future updates
+-> Moved Pong from Processing to
+   Eclipse IDE
